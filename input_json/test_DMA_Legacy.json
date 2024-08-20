@@ -1,0 +1,196 @@
+[
+    {
+        "Product Line": "IST",
+        "Package Name": "C5900",
+        "Package ID": 67336,
+        "Signal Data": [
+            {
+                "tagId": 5079831,
+                "siteTime": "2023-09-27T00:00:00Z",
+                "value": 0.7353426814079285,
+                "dataQuality": 192.0,
+                "sensorQuality": null,
+                "tagName": "DMA Run Duration",
+                "tagAlias": "DMA Run Duration"
+            },
+            {
+                "tagId": 5079831,
+                "siteTime": "2023-09-27T23:59:59Z",
+                "value": 0.7353426814079285,
+                "dataQuality": 192.0,
+                "sensorQuality": null,
+                "tagName": "DMA Run Duration",
+                "tagAlias": "DMA Run Duration"
+            },
+            {
+                "tagId": 7828364,
+                "siteTime": "2023-09-27T00:00:00Z",
+                "value": null,
+                "dataQuality": null,
+                "sensorQuality": null,
+                "tagName": "DMA_G_AP_res",
+                "tagAlias": "DMA_G_AP_res"
+            },
+            {
+                "tagId": 7828364,
+                "siteTime": "2023-09-27T23:59:59Z",
+                "value": null,
+                "dataQuality": null,
+                "sensorQuality": null,
+                "tagName": "DMA_G_AP_res",
+                "tagAlias": "DMA_G_AP_res"
+            },
+            {
+                "tagId": 7828365,
+                "siteTime": "2023-09-27T00:00:00Z",
+                "value": null,
+                "dataQuality": null,
+                "sensorQuality": null,
+                "tagName": "TCDTBT",
+                "tagAlias": "TCDTBT"
+            },
+            {
+                "tagId": 7828365,
+                "siteTime": "2023-09-27T23:59:59Z",
+                "value": null,
+                "dataQuality": null,
+                "sensorQuality": null,
+                "tagName": "TCDTBT",
+                "tagAlias": "TCDTBT"
+            }
+        ],
+        "Event Data": [
+            {
+                "trainId": 1145,
+                "downtime": null,
+                "assemblyName": "C5900",
+                "siteTime": "2023-09-27T00:00:00+02:00",
+                "timeStamp": "2023-09-27T00:00:00+02:00",
+                "eventCategory": "X",
+                "eventCategoryId": 444,
+                "eventDescription": "Data Received",
+                "value": 1,
+                "currentStateId": null,
+                "tagId": 5079841,
+                "id": 65303141,
+                "isExternal": false,
+                "activeTimeStamp": null,
+                "eventStateIndicatorId": null,
+                "tagIdentifier": "Data Received",
+                "tagName": "Data Received",
+                "customerTagAlias": "Data Received",
+                "tagAlias": "Data Received"
+            },
+            {
+                "trainId": 1145,
+                "downtime": null,
+                "assemblyName": "C5900",
+                "siteTime": "2023-09-27T00:00:00+02:00",
+                "timeStamp": "2023-09-27T00:00:00+02:00",
+                "eventCategory": "X",
+                "eventCategoryId": 444,
+                "eventDescription": "Events Received",
+                "value": 1,
+                "currentStateId": null,
+                "tagId": 5079842,
+                "id": 65303142,
+                "isExternal": false,
+                "activeTimeStamp": null,
+                "eventStateIndicatorId": null,
+                "tagIdentifier": "Events Received",
+                "tagName": "Events Received",
+                "customerTagAlias": "Events Received",
+                "tagAlias": "Events Received"
+            },
+            {
+                "trainId": 1145,
+                "downtime": null,
+                "assemblyName": "C5900",
+                "siteTime": "2023-09-27T00:00:00+02:00",
+                "timeStamp": "2023-09-27T00:00:00+02:00",
+                "eventCategory": "X",
+                "eventCategoryId": 444,
+                "eventDescription": "Data Received",
+                "value": 1,
+                "currentStateId": null,
+                "tagId": 7829055,
+                "id": 65303143,
+                "isExternal": false,
+                "activeTimeStamp": null,
+                "eventStateIndicatorId": null,
+                "tagIdentifier": "Data Received",
+                "tagName": "Data Received",
+                "customerTagAlias": "Data Received",
+                "tagAlias": "Data Received"
+            },
+            {
+                "trainId": 1145,
+                "downtime": null,
+                "assemblyName": "C5900",
+                "siteTime": "2023-09-27T00:00:00+02:00",
+                "timeStamp": "2023-09-27T00:00:00+02:00",
+                "eventCategory": "X",
+                "eventCategoryId": 444,
+                "eventDescription": "Events Received",
+                "value": 1,
+                "currentStateId": null,
+                "tagId": 7829056,
+                "id": 65303144,
+                "isExternal": false,
+                "activeTimeStamp": null,
+                "eventStateIndicatorId": null,
+                "tagIdentifier": "Events Received",
+                "tagName": "Events Received",
+                "customerTagAlias": "Events Received",
+                "tagAlias": "Events Received"
+            }
+        ],
+        "Agent Messages": [
+            {
+                "agentMessageId": 52421115,
+                "creationTime": "2024-06-24T18:16:37.393",
+                "siteEventTime": "2023-09-27T00:00:00",
+                "messageText": "TEST - Writing Agent Message",
+                "messageTextId": null,
+                "agentId": 2808,
+                "assemblyId": 67336,
+                "tagId": null,
+                "messageClass": 6514,
+                "messageSeverity": 2,
+                "messageScope": 6523,
+                "categoryId": null,
+                "agentSpecifics": [
+                    "25318687",
+                    "Producer AM and Tag"
+                ],
+                "fileIdentifier": null,
+                "messageMapId": null,
+                "agentSpecCat": null,
+                "hasSpecificText": true,
+                "limitValue": null
+            },
+            {
+                "agentMessageId": 52421113,
+                "creationTime": "2024-06-24T18:16:22.84",
+                "siteEventTime": "2023-09-27T00:00:00",
+                "messageText": "Task opened manually by Dilip Shenoy",
+                "messageTextId": null,
+                "agentId": 2808,
+                "assemblyId": 67336,
+                "tagId": null,
+                "messageClass": 6515,
+                "messageSeverity": 3,
+                "messageScope": 6523,
+                "categoryId": null,
+                "agentSpecifics": [
+                    null
+                ],
+                "fileIdentifier": null,
+                "messageMapId": null,
+                "agentSpecCat": null,
+                "hasSpecificText": true,
+                "limitValue": null
+            }
+        ]
+    }
+]

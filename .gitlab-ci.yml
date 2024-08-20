@@ -1,0 +1,31 @@
+stages:
+  - install
+  - run
+  - test_and_report
+
+variables:
+  S3_BUCKET_NAME: "sdo-dma-dev-fra-se-data-copy"  
+
+install:
+  stage: install
+  script:
+    - pip install -r requirements.txt  # Install all dependencies listed in requirements.txt
+
+run:
+  stage: run
+  script:
+    - python main.py 
+  artifacts:
+    paths:
+      - output/ 
+
+test_and_report:
+  stage: test_and_report
+  script:
+    - pytest tests/test_legacydata.py --html=pytest_report_legacydata.html  # Run the tests for legacy data and generate the report
+    - pytest tests/test_modernizeddata.py --html=pytest_report_modernizeddata.html  # Run the tests for modernized data and generate the report
+    - python upload_reports_to_s3.py  # Upload the reports to S3
+  artifacts:
+    paths:
+      - pytest_report_legacydata.html
+      - pytest_report_modernizeddata.html  # Store the reports as artifacts in GitLab

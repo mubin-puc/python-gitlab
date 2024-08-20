@@ -1,0 +1,90 @@
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:root:[INFO] [2024-06-24_23-45-11] Running C:\Users\z004wk2u\dma-test-automation\dma-legacy-modernized-comparison-scripts\src\generate_legacy_data.py
+INFO:root:[INFO] [2024-06-24_23-45-11] Running C:\Users\z004wk2u\dma-test-automation\dma-legacy-modernized-comparison-scripts\src\generate_modernized_data.py
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-45-13] Productline Legacy: IST
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-45-13] Productline Modernized: IST
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-45-14] Legacy Launcher Id:, 9647
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-45-14] Legacy Launcher Description:, 9647
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-45-14] Modernized Launcher Id: 19558
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-45-14] Modernized Launcher Description: DMA Agent Launcher K8S - IST
+INFO:root:---------------------------------
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-45-20] Legacy Assembly details are:
+INFO:root:{'Package ID': 67336, 'Package Name': 'C5900', 'Product Line': 'IST'}
+INFO:root:[2024-06-24_23-45-20 - INFO] [DMA-K8s] Modernized Assembly details are:
+INFO:root:{'Package ID': 67336, 'Package Name': 'C5900', 'Product Line': 'IST'}
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-45-28] K8s Package Details: 
+INFO:root:Package Name: C5900
+INFO:root:Package ID: 67336
+INFO:root:K8s Signal Tag IDs: [7829047, 7832183, 7832241, 7832254]
+INFO:root:Event Tag IDs: [7829055, 7829056]
+INFO:root:----------------------------------------------
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-45-28] Legacy Package Details: 
+INFO:root:Package Name: C5900
+INFO:root:Package ID: 67336
+INFO:root:Signal Tag IDs: [5079831, 7828364, 7828365]
+INFO:root:Event Tag IDs: [5079841, 5079842]
+INFO:root:----------------------------------------------
+INFO:root:[DMA-K8s - SUCCESS] [2024-06-24_23-45-13] {'message': 'Deleted 1 out of 4 signal tag_id 7829047 for C5900', 'status': 'true', 'status_code': 200}
+INFO:root:[DMA-Legacy - SUCCESS] [2024-06-24_23-45-13] {'message': 'Deleted 1 out of 3 signal tag_id 5079831 for C5900', 'status': 'true', 'status_code': 200}
+INFO:root:[DMA-K8s - SUCCESS] [2024-06-24_23-45-13] {'message': 'Deleted 2 out of 4 signal tag_id 7832183 for C5900', 'status': 'true', 'status_code': 200}
+INFO:root:[DMA-Legacy - SUCCESS] [2024-06-24_23-45-13] {'message': 'Deleted 2 out of 3 signal tag_id 7828364 for C5900', 'status': 'true', 'status_code': 200}
+INFO:root:[DMA-K8s - SUCCESS] [2024-06-24_23-45-13] {'message': 'Deleted 3 out of 4 signal tag_id 7832241 for C5900', 'status': 'true', 'status_code': 200}
+INFO:root:[DMA-Legacy - SUCCESS] [2024-06-24_23-45-13] {'message': 'Deleted 3 out of 3 signal tag_id 7828365 for C5900', 'status': 'true', 'status_code': 200}
+INFO:root:[DMA-K8s - SUCCESS] [2024-06-24_23-45-13] {'message': 'Deleted 4 out of 4 signal tag_id 7832254 for C5900', 'status': 'true', 'status_code': 200}
+INFO:root:[DMA-K8s - SUCCESS] [2024-06-24_23-45-13] {'message': ' Deleted 1 out of 2 event tag_id 7829055 successfully for C5900.', 'status': 'true', 'status_code': 200}
+INFO:root:[DMA-Legacy - SUCCESS] [2024-06-24_23-45-13] {'message': ' Deleted 1 out of 2 event tag_id 5079841 successfully for C5900.', 'status': 'true', 'status_code': 200}
+INFO:root:[DMA-Legacy - SUCCESS] [2024-06-24_23-45-13] {'message': ' Deleted 2 out of 2 event tag_id 5079842 successfully for C5900.', 'status': 'true', 'status_code': 200}
+INFO:root:[DMA-K8s - SUCCESS] [2024-06-24_23-45-13] {'message': ' Deleted 2 out of 2 event tag_id 7829056 successfully for C5900.', 'status': 'true', 'status_code': 200}
+ERROR:root:[DMA-K8s - ERROR] [2024-06-24_23-46-18] Error occurred in fetching task_list : 504
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-46-18] 1 Closed tasks found for DMA DMA-K8s launcher.
+ERROR:root:[DMA-Legacy - ERROR] [2024-06-24_23-46-18] Error occurred in fetching task_list : 504
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-46-18] 1 Closed tasks found for DMA DMA-Legacy launcher.
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-46-20] Opened task for 25318687
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-46-20] Waiting for all DMA Legacy tasks to close...
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-46-20] Opened task for 25343762
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-46-20] Waiting for all DMA K8s tasks to close...
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-46-21] Checking latest task status for legacy DMA...
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-46-21] Checking latest task status for K8s DMA....
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-46-27] Checking latest task status for legacy DMA...
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-46-27] Checking latest task status for K8s DMA....
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-46-33] Checking latest task status for legacy DMA...
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-46-33] Checking latest task status for K8s DMA....
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-46-39] All DMA legacy tasks are closed [{'task_id': 25318687, 'task_status': 'closed'}]
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-46-39] Waiting for 120 seconds after closing the Legacy tasks..
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-46-39] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-46-44] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-46-50] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-46-56] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-47-01] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-47-07] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-47-13] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-47-19] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-47-24] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-47-30] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-47-36] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-47-41] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-47-47] Checking latest task status for K8s DMA....
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-47-53] All DMA K8s tasks are closed [{'task_id': 25343762, 'task_status': 'closed'}]
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-47-53] Waiting for 120 seconds after closing the K8s tasks..
+INFO:root:Generating Signal, Event and Agent Message Data for Legacy DMA for {'Package ID': 67336, 'Package Name': 'C5900', 'Product Line': 'IST'}
+INFO:root:[DMA-Legacy - SUCCESS] [2024-06-24_23-48-56] Signal Data generated for Legacy DMA
+INFO:root:[DMA-Legacy - SUCCESS] [2024-06-24_23-48-56] Event Data generated for Legacy DMA
+INFO:root:[DMA-Legacy - SUCCESS] [2024-06-24_23-48-56] Agent Messages Data generated for Legacy DMA
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:root:[DMA-Legacy - INFO] [2024-06-24_23-48-56] Execution time Legacy:  222.94247150421143 "seconds"
+INFO:root:Generating Signal, Event and Agent Message Data for K8s DMA for {'Package ID': 67336, 'Package Name': 'C5900', 'Product Line': 'IST'}
+INFO:root:[DMA-K8s - SUCCESS] [2024-06-24_23-50-00] Signal Data generated for Modernized DMA
+INFO:root:[DMA-K8s - SUCCESS] [2024-06-24_23-50-00] Event Data generated for Modernized DMA
+INFO:root:[DMA-K8s - SUCCESS] [2024-06-24_23-50-00] Agent Messages Data generated for Modernized DMA
+INFO:botocore.credentials:Found credentials in shared credentials file: ~/.aws/credentials
+INFO:root:[DMA-K8s - INFO] [2024-06-24_23-50-01] Execution time Modernized:  287.6834692955017 "seconds"
+INFO:root:[SUCCESS] [2024-06-24_23-50-01] Both Legacy and Modernized Data json generation script has been executed.
+INFO:root:[SUCCESS] [2024-06-24_23-50-01] Starting output comparison
+INFO:root:[INFO] [2024-06-24_23-45-11] Executing Legacy vs Modernized output comparison script
+INFO:root:[SUCCESS] [2024-06-24_23-45-11] Comparing Product Lines completed.
+INFO:root:[SUCCESS] [2024-06-24_23-45-11] Comparing Package Names completed.
+INFO:root:[SUCCESS] [2024-06-24_23-45-11] Comparing Signal Data completed.
+INFO:root:[SUCCESS] [2024-06-24_23-45-11] Comparing Event Data completed.
+INFO:root:[SUCCESS] [2024-06-24_23-45-11] Comparing Agent Messages completed.
+INFO:root:[SUCCESS] [2024-06-24_23-45-11] Saving output to a file..
+INFO:root:[SUCCESS] [2024-06-24_23-45-11] Comparison report has been generated..

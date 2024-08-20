@@ -1,0 +1,46 @@
+{
+    "general_config": {
+        "bearer_token": "aaaaaaaaaaaaaaaaaaaaaaa",
+        "wait_time_seconds": 120,
+        "user_specified_task_id": "TRUE",
+        "from_date": "2023-08-06T00:00:00",
+        "to_date": "2023-08-12T23:59:00"
+    },
+    "data": {
+        "product_lines": [
+            "IST"
+        ],
+        "assemblies": [
+            "C5900"
+        ],
+        "legacy_launchers": [],
+        "k8s_launchers": [],
+        "legacy_task_details": [
+            25318687
+        ],
+        "k8s_task_details": [
+            25343762
+        ],
+        "legacy_agent_ids": {
+            "AGT": 2804,
+            "Test": 4422,
+            "MGT": 1531,
+            "IST": 2808,
+            "STC": 2809,
+            "SGT": 1195,
+            "RCE": 4262,
+            "SGE": 15793,
+            "RLA": 22068,
+            "LDA": 22069,
+            "EDGE": 8001
+        },
+        "k8s_agent_ids": {
+            "AGT": 43302,
+            "MGT": 43304,
+            "IST": 43303,
+            "STC": 43307,
+            "RCE": 43305,
+            "SGT": 43306
+        }
+    }
+}
